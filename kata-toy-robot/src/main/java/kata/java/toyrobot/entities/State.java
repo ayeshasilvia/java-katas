@@ -1,4 +1,4 @@
-package kata.java.toyrobot;
+package kata.java.toyrobot.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

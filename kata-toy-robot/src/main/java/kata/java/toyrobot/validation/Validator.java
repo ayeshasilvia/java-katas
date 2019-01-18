@@ -1,7 +1,7 @@
 package kata.java.toyrobot.validation;
 
-import kata.java.toyrobot.Boundary;
-import kata.java.toyrobot.State;
+import kata.java.toyrobot.entities.Boundary;
+import kata.java.toyrobot.entities.State;
 
 public class Validator {
 

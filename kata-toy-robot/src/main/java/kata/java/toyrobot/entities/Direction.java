@@ -1,4 +1,4 @@
-package kata.java.toyrobot;
+package kata.java.toyrobot.entities;
 
 public enum Direction {
     EAST,

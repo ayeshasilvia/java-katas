@@ -1,10 +1,16 @@
 package kata.java.toyrobot.commands;
 
-import kata.java.toyrobot.State;
+import kata.java.toyrobot.entities.State;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
+@Data
+@AllArgsConstructor
 public class PlaceCommand implements Command {
 
+    private State state;
+
     public State execute(State currentState) {
-        return new State(currentState.getXCoordinate(), currentState.getYCoordinate(), currentState.getDirection());
+        return this.state;
     }
 }

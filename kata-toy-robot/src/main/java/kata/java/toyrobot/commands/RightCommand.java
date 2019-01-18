@@ -1,6 +1,6 @@
 package kata.java.toyrobot.commands;
 
-import kata.java.toyrobot.State;
+import kata.java.toyrobot.entities.State;
 
 public class RightCommand implements Command {
 
