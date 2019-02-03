@@ -1,0 +1,36 @@
+- items:
+    item1:
+      code: VS5
+      packs:
+        pack1:
+          size: 3
+          cose: 6.99
+        pack2:
+          size: 5
+          cose: 8.99
+    item2:
+      code: MB11
+      packs:
+        pack1:
+          size: 2
+          cost: 9.95
+        pack2:
+          size: 5
+          cose: 16.95
+        pack3:
+          size: 8
+          cose: 24.95
+    item3:
+      code: CF
+      packs:
+        pack1:
+          size: 3
+          cost: 5.95
+        pack2:
+          size: 5
+          cost: 9.95
+        pack3:
+          size: 9
+          cost: 16.99
+
+
