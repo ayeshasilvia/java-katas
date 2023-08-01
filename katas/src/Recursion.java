@@ -59,8 +59,7 @@ public class Recursion {
         if (n%10 == n) {
             return n;
         }
-        int count = (int) Math.log10(n) + 1;
-        return (n%10) * (int) Math.pow(10, count-1) + reverseNumber(n/10);
+        return (n%10) * (int) Math.pow(10,  (int) Math.log10(n)) + reverseNumber(n/10);
 
     }
 
